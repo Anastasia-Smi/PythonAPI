@@ -9,6 +9,3 @@ def test_ex_11(self, BaseCase):
     response = requests.get(url)
     a = print(response.cookies)
     assert (a in response.cookies)
-
-
-
